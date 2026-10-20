@@ -1,31 +1,16 @@
 # SunSwap
 
-projekt na hackathon - handel nadwyzkami energii z paneli slonecznych miedzy sasiadami (P2P)
+SunSwap is a web app for people who have solar panels at home. When the panels make more power than the house uses, you can sell the extra kWh to your neighbours. There's a map of sellers and buyers across the EU, a marketplace with offers, a wallet, a certificate for every trade and a scripted chatbot called SunBot.
 
-wszystko jest na mockach, nie ma backendu
+It's a click-through prototype for a demo, so there's no backend and all the data is fake.
 
-## jak odpalic
+## Running it
 
 ```
 npm install
 npm run dev
 ```
 
-potem localhost:5173
+Then open http://localhost:5173
 
-## co jest
-
-- mapa z userami (leaflet)
-- trade / oferty
-- wallet
-- certyfikaty + ledger
-- microgrid
-- rewards
-- sunbot (chatbot ale na sztywno)
-- dark mode
-
-lint cos nie dziala przez wersje typescripta, trzeba bedzie ogarnac
-
-TODO:
-- poprawic mape na mniejszych ekranach
-- usunac stare rzeczy z helpers
+Lint is broken because of the TypeScript version, haven't fixed it yet.
